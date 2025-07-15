@@ -32,7 +32,7 @@ function Dashboard() {
     if (!token) return;
 
     try {
-      const res = await fetch("http://localhost:9000/api/auth/getProfile", {
+      const res = await fetch("https://check-frontend-rho.vercel.app/api/auth/getProfile", {
         method: "GET",
         credentials: "include",
         headers: {

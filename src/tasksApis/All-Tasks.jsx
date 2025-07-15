@@ -13,7 +13,7 @@ function AllTasks() {
 
   const fetchTask = async () => {
     try {
-      const res = await fetch("http://localhost:9000/api/task/fetchTask", {
+      const res = await fetch("https://check-frontend-rho.vercel.app/api/task/fetchTask", {
         method: "GET",
         credentials: "include",
         headers: {

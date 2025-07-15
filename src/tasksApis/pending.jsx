@@ -16,7 +16,7 @@ function PendingTask() {
   const pendingTasks = async () => {
     try {
       const res = await fetch(
-        "https://localhost:9000/api/task/fetchTaskByStatus/Pending",
+        "https://check-frontend-rho.vercel.app/task/fetchTaskByStatus/Pending",
         {
           method: "GET",
           credentials: "include",

@@ -16,7 +16,7 @@ function CompletedTask() {
   const completedTask = async () => {
     try {
       const res = await fetch(
-        "https://localhost:9000/api/task/fetchTaskByStatus/Completed",
+        "https://check-frontend-rho.vercel.app/task/fetchTaskByStatus/Completed",
         {
           method: "GET",
           credentials: "include",
